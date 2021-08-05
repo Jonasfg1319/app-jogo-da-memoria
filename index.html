@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5BSBZ3F8YP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5BSBZ3F8YP');
+</script>
+	<meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Jogo da memória</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css" >
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
+<body onload="geradora();criacao();comecar()">
+   <div id="conteudo">
+      <nav class=" text-light p-2 text-center mb-5"> 
+       <h3>Memoriza Versículos - Beta</h3>
+     </nav>
+    <div class="text-danger container mt-2 mb-5">
+        <h5>Para jogar, clique nas cartas. 2 por vez. Atrás das cartas contém versículos e referências, você faz um ponto quando encontra o versículo junto com sua referência correspondente</h5>
+       
+        <h5 id="recado"></h5>
+
+    </div>
+   <div class="container mt-3">
+      <h3>Pontos: <b id="pontos">0</b> - <span id="tempo">00:00</span></h3>
+         <div id="cartas" class="center row mb-5">
+
+          
+          
+          
+          
+         </div>
+        
+   </div>
+
+   <div class="modal fade" id="registro" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div id="modal-div-ti">
+        <h5 class="modal-title" id="modal-title"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" id="modal-body">
+       
+      </div>
+      <div class="modal-footer">
+        <button type="button" id="botao" data-dismiss="modal"></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+   <h4 class="text-danger container">Se quiser reiniciar o jogo, atualize a página</h4>
+   <audio src="Amém.mp4"></audio>
+   <footer id="rodape" class="p-3 text-light mt-5" onclick="alo()">
+      <div class="container">
+         Este é apenas um app de teste, não repare nos bugs
+      </div>
+      
+   </footer>
+   </div>
+    
+</html>

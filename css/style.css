@@ -1,0 +1,27 @@
+
+
+
+.carta{
+	background-color: #6A5ACD;
+	color: white;
+}
+
+@media(min-width: 1000px){
+
+	  .carta{
+	  	 height: 250px;
+	  	 border: 2px solid grey;
+	  	 background-color: #6A5ACD;
+	  	 color: white;
+	  }
+}
+
+@media(max-width: 800px) and (min-width: 300px){
+	#conteudo{
+		
+	}
+	.carta{
+		width: 500px;
+
+	}
+}
