@@ -30,7 +30,7 @@ Contém os arquivos javascript da aplicação, a maioria deles são necessários
 
 ### Index.js
 
-Contém toda a lógida da aplicação, o código está comentado para auxilia o entendimento do funcionamento das funções
+Contém toda a lógida da aplicação, o código está comentado para auxiliar o entendimento do funcionamento das funções utilizadas
 
 ## Diretório css
 
